@@ -1,0 +1,64 @@
+{
+  "masterPicture": "img/szotki-ikonka.png",
+  "iconsPath": "/",
+  "design": {
+    "ios": {
+      "pictureAspect": "backgroundAndMargin",
+      "backgroundColor": "#ffffff",
+      "margin": "14%",
+      "assets": {
+        "ios6AndPriorIcons": false,
+        "ios7AndLaterIcons": true,
+        "precomposedIcons": true,
+        "declareOnlyDefaultIcon": true
+      },
+      "appName": "Szotki"
+    },
+    "desktopBrowser": {
+      "design": "raw"
+    },
+    "windows": {
+      "pictureAspect": "whiteSilhouette",
+      "backgroundColor": "#da532c",
+      "onConflict": "override",
+      "assets": {
+        "windows80Ie10Tile": false,
+        "windows10Ie11EdgeTiles": {
+          "small": false,
+          "medium": true,
+          "big": false,
+          "rectangle": false
+        }
+      },
+      "appName": "Szotki"
+    },
+    "androidChrome": {
+      "pictureAspect": "backgroundAndMargin",
+      "margin": "8%",
+      "backgroundColor": "#ffffff",
+      "themeColor": "#ffffff",
+      "manifest": {
+        "name": "Szotki",
+        "display": "browser",
+        "orientation": "notSet",
+        "onConflict": "override",
+        "declared": true
+      },
+      "assets": {
+        "legacyIcon": false,
+        "lowResolutionIcons": true
+      }
+    },
+    "safariPinnedTab": {
+      "pictureAspect": "silhouette",
+      "themeColor": "#5bbad5"
+    }
+  },
+  "settings": {
+    "scalingAlgorithm": "Lanczos",
+    "errorOnImageTooSmall": false,
+    "readmeFile": true,
+    "htmlCodeFile": true,
+    "usePathAsIs": false
+  }
+}
