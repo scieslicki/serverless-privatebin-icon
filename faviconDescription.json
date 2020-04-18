@@ -15,7 +15,10 @@
       "appName": "Szotki"
     },
     "desktopBrowser": {
-      "design": "raw"
+      "design": "background",
+      "backgroundColor": "#ffffff",
+      "backgroundRadius": 0.8,
+      "imageScale": 0.8
     },
     "windows": {
       "pictureAspect": "whiteSilhouette",
